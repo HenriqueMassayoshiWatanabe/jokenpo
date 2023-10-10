@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>JOKENPÔ - GAME</h1>
+    <hr>
+    <p>PARTIDA:- <b><span id="partida" style="color: green"> 0 </span></b></p>
+    <hr>
+    <h3>JOGADOR:- <span id="jogador" style="color: blue"> 0 </span></h3>
+    <img src="pedra_e_papel.png"><br>
+    <input type="radio" name="g1" id="pedra"><label for="pedra">PEDRA</label>
+    <input type="radio" name="g1" id="papel"><label for="papel">PAPEL</label>
+    <input type="radio" name="g1" id="tesoura"><label for="tesoura">TESOURA</label> <br><br>
+    <input type="button" value="JOGAR" onclick="jogar()">
+    <hr>
+    <h1>RESULTADO:- <span id="resultado"> 0 </span></h1>
+    <hr>
+    <h3>COMPUTADOR: <span id="computador" style="color: red"> 0 </span> </h3>
+    <img id="pc" src="pc.png" width="200">
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
